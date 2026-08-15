@@ -6,7 +6,7 @@ from flask import Flask, render_template, request, jsonify
 app = Flask(__name__)
 
 # --- GEMINI API Configuration ---
-API_KEY = "AIzaSyA5ZmHpwNSI5jeOUVA6r0tQue-TzTy_miQ"
+API_KEY = "........"
 MODELS = ["gemini-3.5-flash-lite", "gemini-3.5-flash", "gemini-flash-latest"]
 
 @app.route('/')
